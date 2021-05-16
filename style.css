@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .5s ease-in;
+}
+.all-content {
+    background-color: #FDDE7E;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box {
+    background-color: white;
+    text-align: center;
+    width: 30%;  
+    border-radius: 2%;
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.92); 
+    box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.92);
+}
+.price {
+    margin: 10% auto;
+    font-size: 90px;
+    color: #02995b;
+    font-family: MisoBold;
+}
+.logo {
+    margin: 10% auto;
+}
+.head {
+    margin-bottom: 10%;
+    font-size: 40px;
+    font-family: MisoLatoLight;
+}
+.details {
+    margin: 10% auto;
+    font-size: 25px;
+    font-family: MisoLatoLight;
+}
+.box:hover .price{
+    margin:  15% auto;
+}
+.box:hover .details{
+    margin:  15% auto;
+}
+@font-face {
+    font-family: MisoBold; /* Имя шрифта */
+    src: url(./miso-bold.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: MisoLatoLight;
+    src: url(./miso-light.ttf);
+}
